@@ -1,0 +1,36 @@
+.hero {
+    
+    background: 
+    linear-gradient(rgba(#0879ee, 0.9), rgba(#0879ee, 0.75)),
+    url(http://placekitten.com/800/600) no-repeat top center;
+    background-size: cover;
+    height: 800px;
+    max-height: 70vh;
+    text-align: center;
+
+    .hero-content {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #fff;
+
+        h1, h2 {
+            margin-top: 0;
+        }
+
+        h1 {
+            font-size: 70px;
+        }
+
+        p {
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+
+        .cta a {
+            padding-top: 20px 30px;
+            font-size: 30px;
+        }
+        
+    }
+}
